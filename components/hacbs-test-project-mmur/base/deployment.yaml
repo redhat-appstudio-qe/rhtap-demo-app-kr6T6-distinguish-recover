@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-mmur
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-dial-tenant/rhtap-demo-app/hacbs-test-project-mmur@sha256:b136439a5432041446ec800e43da562b87daddb2f0df465c2e8613d5343e8384
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
